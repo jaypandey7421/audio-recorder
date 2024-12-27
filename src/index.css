@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Kanit", serif;
+  font-weight: 400;
+  font-style: normal;
+  background: #171515;
+  color: #f9f6f0;
+}
+.header{
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  box-shadow: rgb(87, 87, 86) 0px 2px 4px -1px, rgb(103, 103, 102) 0px 1px 3px -1px;
+}
+.audio-control{
+  width: 300px;
+  height: 56px;
+  padding: 3px;
+  background-color: #6c665f;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  margin-top: 2em;
+}
+.mic{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f9f6f0 ;
+  color: #171515;
+  line-height: 50px;
+  text-align: center;
+}
+.mic-recording{
+  background-color: #2F5233;
+  color: #f9f6f0;
+}
