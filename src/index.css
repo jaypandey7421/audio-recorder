@@ -17,7 +17,7 @@ body{
   text-align: center;
   box-shadow: rgb(87, 87, 86) 0px 2px 4px -1px, rgb(103, 103, 102) 0px 1px 3px -1px;
 }
-.audio-control{
+.recording-control{
   width: 300px;
   height: 56px;
   padding: 3px;
@@ -41,4 +41,20 @@ body{
 .mic-recording{
   background-color: #2F5233;
   color: #f9f6f0;
+}
+.audio-list{
+  width: 300px;
+ margin: 2em auto 16px auto;
+}
+.no-recordings{
+  height: 400px;
+  line-height: 400px;
+  font-size: 1.5em;
+  text-align: center;
+  opacity: 0.4;
+  color: #f9f6f0;
+}
+.h1-span{
+  font-size: 12px;
+  opacity: 0.3;
 }
